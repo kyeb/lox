@@ -1,5 +1,4 @@
 # crafting-interpreters
 
-Personal git repo as slowly I work through Robert Nystrom's "Crafting
+Personal git repo as I slowly work through Robert Nystrom's "Crafting
 Interpreters."
-
