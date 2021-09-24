@@ -1,0 +1,8 @@
+# bazel things
+bazel-*
+
+# file for testing
+test.lox
+
+# this should not be shared across machines, since it contains env-specific variables
+.vscode
