@@ -1,9 +1,11 @@
+# Main binary
 java_binary(
     name = "Lox",
     srcs = glob(["src/com/craftinginterpreters/lox/*.java"]),
     main_class = "com.craftinginterpreters.lox.Lox",
 )
 
+# Codegen for AST
 java_binary(
     name = "generate_ast",
     srcs = ["src/com/craftinginterpreters/tool/GenerateAst.java"],
