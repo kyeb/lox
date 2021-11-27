@@ -3,3 +3,9 @@ java_binary(
     srcs = glob(["src/com/craftinginterpreters/lox/*.java"]),
     main_class = "com.craftinginterpreters.lox.Lox",
 )
+
+java_binary(
+    name = "generate_ast",
+    srcs = ["src/com/craftinginterpreters/tool/GenerateAst.java"],
+    main_class = "com.craftinginterpreters.tool.GenerateAst",
+)
